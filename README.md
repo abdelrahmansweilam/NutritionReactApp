@@ -2,6 +2,8 @@
 
 In the project directory, you can run:
 
+run ### `npm install` to make sure all libraries are correctly installed
+
 ### `npm start`
 
 Runs the app in the development mode.\
