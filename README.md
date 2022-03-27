@@ -2,7 +2,7 @@
 
 In the project directory, you can run:
 
-run ### `npm install` to make sure all libraries are correctly installed
+run `npm install` to make sure all libraries are correctly installed
 
 ### `npm start`
 
