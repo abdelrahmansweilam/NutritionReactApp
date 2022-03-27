@@ -1,0 +1,19 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+
+.material-textfield {
+  position: relative;
+  display: flex;
+  width: 100%;
+}

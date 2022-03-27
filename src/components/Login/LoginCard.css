@@ -1,0 +1,143 @@
+.Login-card {
+  /* Add shadows to create the "card" effect */
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 25px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.Login-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.Login-container {
+  padding: 16px;
+  width: 30vw;
+  /* height: 70vh; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Login-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.Login-submit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .Login-container {
+    width: 50vw;
+    /* height: 70vh; */
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .Login-container {
+    width: 70vw;
+    /* height: 70vh; */
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Login-container {
+    width: 85vw;
+    /* height: 70vh; */
+  }
+}
+
+/* .title {
+  color: #282c34;
+}
+
+.material-textfield {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+label {
+  position: absolute;
+  font-size: 1rem;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  color: gray;
+  padding: 0 0.3rem;
+  margin: 0 0.5rem;
+  transition: 0.1s ease-out;
+  transform-origin: left top;
+  pointer-events: none;
+}
+input {
+  font-size: 1rem;
+  width: 100%;
+  margin: 10px 5px;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 25px;
+  padding: 1rem 0.7rem;
+  color: gray;
+  transition: 0.1s ease-out;
+}
+input:focus {
+  border-color: #282c34;
+}
+input:focus + label {
+  color: #282c34;
+  top: 0;
+  transform: translateY(-50%) scale(0.9);
+}
+input:not(:placeholder-shown) + label {
+  top: 0;
+  transform: translateY(-50%) scale(0.9);
+}
+
+.outline-button {
+  margin-top: 10px;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  z-index: 3;
+  background: transparent;
+  color: #1172c4;
+  font-size: 14px;
+  border-color: #1172c4;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 22px;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  transition: all 0.2s linear;
+  font-weight: 700;
+  color: white;
+  border-color: white;
+  background: #282c34;
+}
+
+.outline-button:hover {
+  color: #282c34;
+  background: white;
+  border-color: #282c34;
+}
+
+.clickable {
+  color: rgb(69, 131, 245);
+  font-weight: normal;
+  font-size: medium;
+}
+
+.clickable:hover {
+  cursor: pointer;
+  font-weight: bold;
+} */
